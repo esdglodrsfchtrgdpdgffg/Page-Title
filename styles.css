@@ -1,0 +1,57 @@
+body{
+    text-align:center; 
+    background-image:url(https://www.daytondailynews.com/rf/image_large/Pub/p8/CmgSharedContent/2017/06/14/Videos/4082103.vpx.jpg);
+    background-size:100% 130%;
+    background-repeat:no-repeat;
+    
+}
+.container{
+       display:flex;
+       border:1px solid black;
+       justify-content:center;
+       margin:0px;
+       width:125px;
+}
+.boxed{
+    display:flex;
+    border:1px solid black;
+    border-radius:10px;
+    background-color:white;
+    justify-content:center;
+}
+.icon-bar {
+    width: 100%;
+    background-color: gray; 
+    overflow: auto; 
+}
+
+.icon-bar a {
+    background-color:darkgray;
+    float: left;
+    text-align: center;
+    width: 16.6666667%;
+    padding: 12px 0; 
+    transition: all 0.3s ease; 
+    color: white; 
+    font-size: 36px; 
+}
+
+.icon-bar a:hover {
+    background-color: gray; 
+}
+
+.active {
+    background-color: darkgray; 
+}
+.redsticker{
+    height: 50px;
+  width: 100px;
+  background-color: tomato;
+  border-radius: 10%;
+  position:relative;
+  top:-100px;
+}
+p{
+    color:white;
+    background:darkgray;
+}
